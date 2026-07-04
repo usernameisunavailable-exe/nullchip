@@ -1,5 +1,5 @@
 # nullchip
-
+ theres nothing interesting in the "meh" folder. that  was just me learning C
 uhhh idk.
 I wanna make a programming language as a final project to learn C. that's why you'll see mini-projects in the "notes" section
 ***these (for now) are only plans***
