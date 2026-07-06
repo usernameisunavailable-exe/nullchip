@@ -2,7 +2,7 @@
 #include <string.h>
 
 #define TAPE_SIZE 30000
-#define BUFFER_SIZE 1024
+#define BUFFER_SIZE 100024
 
 int main() {
   // 1. Initialize your state (the tape and the pointer)
@@ -46,7 +46,7 @@ int main() {
         tape[ptr]--;
         break;
       case ('.'):
-        printf("%c \n", tape[ptr]);
+        printf("%c", tape[ptr]);
         fflush(stdout);
         break;
       case ('['):
